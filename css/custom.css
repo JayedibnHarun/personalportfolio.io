@@ -1,0 +1,112 @@
+.navbar .navbar-brand img {
+    width:220px ;
+}
+
+
+
+#navbarSupportedContent ul li a {
+    transition: 0.5s
+}
+
+#navbarSupportedContent ul:hover li a {
+    transform: scale(1.5);
+    opacity: 2;
+    filter: blur(5px);
+}
+#navbarSupportedContent ul li a:hover {
+    transform: scale(1.5);
+    opacity: 1;
+    border-bottom: 5px;
+    filter: blur(0);
+}
+
+#navbarSupportedContent ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition:transform 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+    border-radius: 15%;
+
+}
+
+#navbarSupportedContent ul li a:hover:before {
+    transition:transform 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+@media (min-width: 768px) {
+    #navbarSupportedContent ul li a {
+        transition: 0.5s
+    }
+    
+    #navbarSupportedContent ul:hover li a {
+        transform: scale(1.5);
+        opacity: 2;
+        filter: blur(5px);
+    }
+    #navbarSupportedContent ul li a:hover {
+        transform: scale(1.5);
+        opacity: 1;
+        border-bottom: 5px;
+        filter: blur(0);
+    }
+    
+    #navbarSupportedContent ul li a:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition:transform 0.5s;
+        transform-origin: right;
+        transform: scaleX(0);
+        z-index: -1;
+        border-radius: 15%;
+    
+    }
+    
+    #navbarSupportedContent ul li a:hover:before {
+        transition:transform 0.5s;
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+}
+.fixed-block{
+    height: auto;
+    width: 25px;
+}
+.fixed-block .social-icons .list-inline-item a {
+    color: white;
+    font-size: 20px;
+}
+
+.single-info p a {
+    color: tomato;
+}
+
+#ani-b {
+    background-color:tomato;
+}
+#logos {
+    font-size: 50px;
+    color:tomato;
+}
+
+#logos1 {
+    font-size: 30px;
+    color: tomato;
+}
+
+.button-main{
+    background-color: tomato;
+}
+.progress-bar {
+    background-color: tomato;
+}
