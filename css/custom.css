@@ -110,3 +110,6 @@
 .progress-bar {
     background-color: tomato;
 }
+#resume .video-section .video-part .embed-responsive-item {
+    background-image: url(../img/video.jpg);
+}
